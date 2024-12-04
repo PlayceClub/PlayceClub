@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <title>PlayceMenu</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/ICO/playce.jfif" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+       
+    </header>
+
+    <main>
+      
+        <div id="menu">
+            <h1>PlayceMenu</h1>
+            <div id="menu-controls">
+                <input type="text" id="search-bar" placeholder="Поиск...">
+                <select id="category-filter">
+                    <option value="all">Все</option>
+                    <option value="pizza">Пицца</option>
+                    <option value="pasta">Паста</option>
+                    <option value="Sneck">Закуски</option>
+                </select>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <div class="menu-img-wrapper">
+                    <img src="img/zotman_ветчина и грибы_6.png"  alt="Пицца ветчина и грибы">
+                </div>
+                <h4>Пицца ветчина и грибы</h4>
+                <p>Пицца с ветчиной,шампиньонами,моцареллой и</p>
+                <p> томатным соусом.</p>
+                <span class="price">300 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="300" data-name="Пицца ветчина и грибы">Добавить<span class="item-count" data-name="Пицца ветчина и грибы"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="300" data-name="Пицца ветчина и грибы">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <div class="menu-img-wrapper">
+                    <img src="img/zotman_груша_p.png" alt="Пицца с грушей">
+                </div>
+                <h4>Пицца с грушей</h4>
+                <p>Ломтики груши, сыр горгонзола,моцарелла</p>
+                <p> и медовый акцент.</p>
+                <span class="price">200 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="200" data-name="Пицца с грушей">Добавить <span class="item-count" data-name="Пицца с грушей"></span></button>
+                   
+                    <button class="remove-from-cart" data-price="200" data-name="Пицца с грушей">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <div class="menu-img-wrapper">
+                    <img src="img/zotman_маргарита_p.png" alt="Пицца Маргарита">
+                </div>
+                <h4>Пицца Маргарита</h4>
+                <p>Классическая итальянская пицца с тонким тестом.</p>
+            
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Пицца Маргарита">Добавить<span class="item-count" data-name="Пицца Маргарита"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Пицца Маргарита">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <div class="menu-img-wrapper">
+                    <img src="img/zotman_пепперони_p.png" alt="Пицца Пепперони">
+                </div>
+                <h4>Пицца Пепперони</h4>
+                <p>Тонкое тесто,пепперони,томатный соус и моцарелла.</p>
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Пицца Пепперони">Добавить<span class="item-count" data-name="Пицца Пепперони"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Пицца Пепперони">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="pizza">
+                <div class="menu-img-wrapper">
+                    <img src="img/zotman_цыпленок песто_p.png" alt="Пицца Цыпленок Песто">
+                </div>
+                <h4>Пицца Цыпленок Песто</h4>
+                <p>Цыпленок, соус песто, томаты и моцарелла. </p>
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Пицца Цыпленок Песто">Добавить<span class="item-count" data-name="Пицца Цыпленок Песто"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Пицца Цыпленок Песто">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/батат_p.png" alt="Батат">
+                </div>
+                <h4>Батат</h4>
+                <p>Обжаренные палочки батата до золотистости.</p>
+                <p>Подается с соусом на выбор.</p>
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Батат">Добавить<span class="item-count" data-name="Батат"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Батат">Убрать</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/картофель_дольками_p.png" alt="картофель с дольками">
+                </div>
+                <h4>Картофель с дольками</h4>
+                <p>Дольки картофеля, обжаренные до корочки.</p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Картофель с дольками">Добавить<span class="item-count" data-name="Картофель с дольками"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Картофель с дольками">Убрать</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/картофель_фри_p.png" alt="Картофель фри">
+                </div>
+                <h4>Картофель фри</h4>
+                <p>Палочки картофеля, обжаренные на фритюре до хруста.</p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Картофель фри">Добавить<span class="item-count" data-name="Картофель фри"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Картофель фри">Убрать</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/крабовые клешни_p.png" alt="Крабовые клешни">
+                </div>
+                <h4>Крабовые клешни</h4>
+                <p>Сочные крабовые клешни в хрустящей золотистой панировке.</p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Крабовые клешни">Добавить<span class="item-count" data-name="Крабовые клешни"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Крабовые клешни">Убрать</button>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/креветки в кляре_p.png" alt="Креветки в кляре">
+                </div>
+                <h4>Креветки в кляре</h4>
+                <p>Нежные креветки в воздушном хрустящем кляре. </p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Креветки в кляре">Добавить<span class="item-count" data-name="Креветки в кляре"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Креветки в кляре">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/куриный попкорн_p.png" alt="Куриный попкорн">
+                </div>
+                <h4>Куриный попкорн</h4>
+                <p>Сочные кусочки курицы в хрустящей золотистой панировке. </p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Куриный попкорн">Добавить<span class="item-count" data-name="Куриный попкорн"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Куриный попкорн">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/острые крылышки_p.png" alt="Острые крылышки">
+                </div>
+                <h4>Острые крылышки</h4>
+                <p>Острые, сочные кусочки курицы в ароматном соусе. </p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Острые крылышки">Добавить<span class="item-count" data-name="Острые крылышки"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Острые крылышки">Убрать</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="Sneck">
+                <div class="menu-img-wrapper">
+                    <img src="img/стрипсы_p.png" alt="Стрипсы">
+                </div>
+                <h4>Стрипсы</h4>
+                <p>Сочные куриные филе в хрустящей панировке. </p>
+                
+                <span class="price">150 руб.</span>
+                <div class="menu-actions">
+                    <button class="add-to-cart" data-price="150" data-name="Стрипсы">Добавить<span class="item-count" data-name="Стрипсы"></span></button>
+                    
+                    <button class="remove-from-cart" data-price="150" data-name="Стрипсы">Убрать</button>
+                </div>
+                </div>
+                <div class="menu-item" data-category="Sneck">
+                    <div class="menu-img-wrapper">
+                        <img src="img/сырные  медальоны с халапеньо_p.png" alt="Сырные  медальоны с халапеньо">
+                    </div>
+                    <h4>Сырные  медальоны с халапеньо</h4>
+                    <p>Тянущийся сыр с пикантным халапеньо в корочке. </p>
+                    
+                    <span class="price">150 руб.</span>
+                    <div class="menu-actions">
+                        <button class="add-to-cart" data-price="150" data-name="Сырные  медальоны с халапеньо">Добавить<span class="item-count" data-name="Сырные  медальоны с халапеньо"></span></button>
+                        
+                        
+                        <button class="remove-from-cart" data-price="150" data-name="Сырные  медальоны с халапеньо">Убрать</button>
+                    </div>
+                    </div>
+                    <div class="menu-item" data-category="Sneck">
+                        <div class="menu-img-wrapper">
+                            <img src="img/сырные палочки_p.png" alt="Сырные палочки">
+                        </div>
+                        <h4>Сырные палочки</h4>
+                        <p>Хруст снаружи, нежный сыр внутри!Тянущееся удовольствие. </p>
+                        
+                        <span class="price">150 руб.</span>
+                        <div class="menu-actions">
+                            <button class="add-to-cart" data-price="150" data-name="Сырные палочки">Добавить<span class="item-count" data-name="Сырные палочки"></span></button>
+                            
+                            <button class="remove-from-cart" data-price="150" data-name="Сырные палочки">Убрать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+
+                    
+            <button id="cart-icon">Корзина</button>
+
+        <section id="cart-container">
+            <h2>Корзина</h2>
+            <ul id="cart-list">
+                <!-- Товары добавляются динамически -->
+            </ul>
+            <strong>Общая стоимость:</strong> <span id="total-cost">0 руб.</span>
+            <button id="submit-order">Отправить заказ</button>
+        </section>
+        
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
